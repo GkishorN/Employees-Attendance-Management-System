@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="7.js"></script>
+<script type="text/javascript"> 
+
+        window.history.forward(); 
+
+        function noBack() { 
+
+            window.history.forward(); 
+
+        } 
+
+    </script>
+<style>
+h1{text-align:center;}
+body {
+  background-image: url('1.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+font-family: 'Varela Round', sans-serif;
+  
+}
+.button {
+  display: grid;
+  width: 20%;
+  border: solid;
+  color: black;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px
+  
+}
+
+.button:hover {
+  background-color: #ddd;
+  color: black;
+}
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: #008CBA;}
+.button5 {background-color: #990033;}
+</style>
+</head>
+<body>
+<center><h2 style="color:red;font-size:50px">PRAESENTIA</h2>
+<h3 style="color:yellow;font-size:30px">ADMIN PORTAL</h3></center>
+<center><button class="button button1" onclick="window.location.href='add employee.html';"><b>Add Employee</b></button></center>
+<center><button class="button button5" onclick="window.location.href='view.php';"><b>View Employee</b></button></center>
+<center><button class="button button1" onclick="window.location.href='Employee register.php';"><b>Attendance Details</b></button></center>
+<center><button class="button button2" onclick="window.location.href='time report.html';"><b>Employee Timing Report</b></button></center>
+<center><button class="button button1" onclick="window.location.href='Check presence.html';"><b>Check Presence</b></button></center>
+<center><button class="button button5" onclick="window.location.href='action4.php';"><b>Reset System</b></button></center>
+<center><button class="button button2" onclick="window.location.href='Admin Login.html';"><b>Log Out</b></button></center>
+</body>
+</html>
+
